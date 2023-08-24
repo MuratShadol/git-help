@@ -95,10 +95,10 @@ you can create files, edit them and load to remote repository on GitHub.
 Ones you created files using standard command line functions *touch/nano*. You can upload them to
 GitHub repository. To do that follow these steps:  
 
-* ```Bash git status```. This command will give you information about current status of repository.  
-* ```Bash git add %file-name%```. This command prepares files to be uploaded on GitHub.  
-* ```Bash git commit -m %comment%```. This command saves updates in file.  
-* ```Bash git push```. This command uploads files to GitHub.  
+* ``` git status```. This command will give you information about current status of repository.  
+* ``` git add %file-name%```. This command prepares files to be uploaded on GitHub.  
+* ``` git commit -m %comment%```. This command saves updates in file.  
+* ``` git push```. This command uploads files to GitHub.  
 
 Ones you done that you should be able to see your files on GitHub repository. 
 

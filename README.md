@@ -10,39 +10,60 @@ Open terminal (command line).
 ### Commands for command line
 
 Navigate to directory:  
-* cd path/to/your/folder
+``` Bash
+cd path/to/your/folder
+```
 
 Navigate to home directory  
-* cd ~ 
+```Bash
+cd ~
+```
 
 Create file:  
-* touch file.*
+```Bash
+ touch file.*
+```
 
 Open file for editing. If file doesn't exist it creates and opens new file:  
-* nano %your-file%
+```Bash
+nano %your-file%
+```
 
 Create folder:  
-* mkdir %folder-name%
+```Bash
+mkdir %folder-name%
+```
 
 Remove file:  
-* rm %file-name%
+```Bash
+rm %file-name%
+```
 
 Remove empty folder:  
-* rmdir %folder-name% 
+```Bash
+rmdir %folder-name% 
+```
 
 Remove folder with files:  
-* rm -R %folder-name%
+```Bash
+rm -R %folder-name%
+```
 
 List content of current folder:  
-* ls
+```Bash
+ls
+```
 
 List all content in folder (including hidden files/folders):  
-* ls -a 
+```Bash
+ls -a 
+```
 
 Copy/Move file:  
+```Bash
 cp %what-to-copy% %what-to-copy% ... %where-to-copy%  
 mv %what-to-move% ... %where-to-move%
-
+```
 ---
 
 ## Create repository in GitHub
@@ -74,10 +95,10 @@ you can create files, edit them and load to remote repository on GitHub.
 Ones you created files using standard command line functions *touch/nano*. You can upload them to
 GitHub repository. To do that follow these steps:  
 
-* type *git status*. This command will give you information about current status of repository.  
-* *git add %file-name%*. This command prepares files to be uploaded on GitHub.  
-* *git commit -m %comment%*. This command saves updates in file.  
-* *git push*. This command uploads files to GitHub.  
+* ```Bash git status```. This command will give you information about current status of repository.  
+* ```Bash git add %file-name%```. This command prepares files to be uploaded on GitHub.  
+* ```Bash git commit -m %comment%```. This command saves updates in file.  
+* ```Bash git push```. This command uploads files to GitHub.  
 
 Ones you done that you should be able to see your files on GitHub repository. 
 

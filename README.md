@@ -117,3 +117,61 @@ version type ```bash git log --oneline```. It will print the same information in
 
 HEAD is a file in .git directory, this file contains link to the hash of the last commit. You can use  
 HEAD instead of last commit' hash. 
+
+## Statuses
+
+```bash git status``` Will display information about files. This information contains file status.
+
+
+```mermaid
+graph LR;
+
+untracked -- "git add <file>" --> staged;
+staged -- "git commit -m "message" --> tracked/commited;
+staged -- "Changes in file" --> modified;
+modified -- "git add <file>" --> staged;
+tracked/commited -- "Changes in file" --> modified;
+
+```
+
+This is the lifecycle of GitHub file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

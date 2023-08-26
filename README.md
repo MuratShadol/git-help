@@ -124,13 +124,13 @@ HEAD instead of last commit' hash.
 
 
 ```mermaid
-graph LR;
 
-untracked -- "git add <file>" --> staged;
-staged -- "git commit -m "message" --> tracked/commited;
-staged -- "Changes in file" --> modified;
-modified -- "git add <file>" --> staged;
-tracked/commited -- "Changes in file" --> modified;
+graph LR;
+  untracked -- "git add <file>" --> staged;
+  staged -- "git commit -m "message" --> tracked/commited;
+  staged -- "Changes in file" --> modified;
+  modified -- "git add <file>" --> staged;
+  tracked/commited -- "Changes in file" --> modified;
 
 ```
 

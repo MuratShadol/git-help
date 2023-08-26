@@ -126,13 +126,13 @@ HEAD instead of last commit' hash.
 ```mermaid
 
 graph LR;
-  untracked -- "git add <file>" --> staged;
+  untracked -- "git add %file_name%" --> staged;
   staged -- "git commit -m "message" --> tracked/commited;
   staged -- "Changes in file" --> modified;
-  modified -- "git add <file>" --> staged;
+  modified -- "git add %file_name%>" --> staged;
   tracked/commited -- "Changes in file" --> modified;
 
-```
+``` 
 
 This is the lifecycle of GitHub file.
 

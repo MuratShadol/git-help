@@ -104,4 +104,16 @@ Ones you done that you should be able to see your files on GitHub repository.
 
 ---
 
-Good luck in exploring GitHub features! 
+# File status/Commit navigation
+
+```bash git log``` This command will list information about all commits in the project.
+
+You can see the sequence of letters and numbers. This is a hash. Hash is a fingerprint of commit  
+It contains information about commit: when it was done, files content in the repo at the time  
+of the commit, link on parent commit. Hash is the main id of the commit.
+
+Also ```bash git log``` displays the author, the date and the message of the commit. To get compact  
+version type ```bash git log --oneline```. It will print the same information in more compact way.  
+
+HEAD is a file in .git directory, this file contains link to the hash of the last commit. You can use  
+HEAD instead of last commit' hash. 
